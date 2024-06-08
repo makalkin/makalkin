@@ -1,6 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" height="80">
     <style src="./style.css" >
-        .title {
+      
+        
+        svg {
           transition: fill .3s ease;
           cursor: pointer;
           font-family: Helvetica, sans-serif;
@@ -9,8 +11,18 @@
           text-anchor: middle;
           dominant-baseline: middle;
           font-size: 24px;
+        animation: 3s linear 0s infinite rotate;
         }
 
+        
+
+        @keyframes rotate {
+       from {
+         transform: rotate(0);
+        }
+        to {
+        transform: rotate(360deg);
+        }
     </style>
 
     <g class="title">
