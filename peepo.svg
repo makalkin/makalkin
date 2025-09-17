@@ -1,5 +1,5 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="120" viewBox="0 0 600 120" role="img" aria-label="dancing peepo">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="120" viewBox="0 0 800 120" role="img" aria-label="dancing peepo">
   <rect width="100%" height="100%" fill="transparent"/>
 
 
@@ -7,9 +7,9 @@
     <animateTransform
       attributeName="transform"
       type="translate"
-      dur="4s"
+      dur="5s"
       repeatCount="indefinite"
-      values="0,60; 520,60; 0,60"
+      values="0,60; 720,60; 0,60"
       keyTimes="0; 0.5; 1"
     />
 
@@ -22,7 +22,7 @@
         attributeName="transform"
         type="scale"
         additive="sum"
-        dur="4s"
+        dur="5s"
         repeatCount="indefinite"
         values="1,1; 1,1; -1,1; -1,1; 1,1"
         keyTimes="0; 0.49; 0.5; 0.99; 1"
@@ -31,7 +31,7 @@
         attributeName="transform"
         type="translate"
         additive="sum"
-        dur="4s"
+        dur="5s"
         repeatCount="indefinite"
         values="0,0; 0,0; -80,0; -80,0; 0,0"
         keyTimes="0; 0.49; 0.5; 0.99; 1"
